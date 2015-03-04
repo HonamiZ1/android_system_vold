@@ -36,10 +36,10 @@
 #define CRYPT_FOOTER_TO_PERSIST_OFFSET 0x1000
 #define CRYPT_PERSIST_DATA_SIZE 0x1000
 
-#define MAX_CRYPTO_TYPE_NAME_LEN 64
+#define MAX_CRYPTO_TYPE_NAME_LEN 256
 
-#define MAX_KEY_LEN 48
-#define SALT_LEN 16
+#define MAX_KEY_LEN 128
+#define SALT_LEN 64
 
 /* definitions of flags in the structure below */
 #define CRYPT_MNT_KEY_UNENCRYPTED 0x1 /* The key for the partition is not encrypted. */
