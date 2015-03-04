@@ -53,9 +53,9 @@
 #define DM_CRYPT_BUF_SIZE 4096
 #define DATA_MNT_POINT "/data"
 
-#define HASH_COUNT 2000
-#define KEY_LEN_BYTES 16
-#define IV_LEN_BYTES 16
+#define HASH_COUNT 3000
+#define KEY_LEN_BYTES 32
+#define IV_LEN_BYTES 32
 
 #define KEY_IN_FOOTER  "footer"
 
