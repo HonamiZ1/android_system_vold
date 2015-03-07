@@ -65,8 +65,8 @@
 #define DM_CRYPT_BUF_SIZE 4096
 
 #define HASH_COUNT 2000
-#define KEY_LEN_BYTES 16
-#define IV_LEN_BYTES 16
+#define KEY_LEN_BYTES 32
+#define IV_LEN_BYTES 32
 
 #define KEY_IN_FOOTER  "footer"
 
@@ -78,8 +78,8 @@
 
 #define TABLE_LOAD_RETRIES 10
 
-#define RSA_KEY_SIZE 2048
-#define RSA_KEY_SIZE_BYTES (RSA_KEY_SIZE / 8)
+#define RSA_KEY_SIZE 3072
+#define RSA_KEY_SIZE_BYTES (RSA_KEY_SIZE / 16)
 #define RSA_EXPONENT 0x10001
 
 #define RETRY_MOUNT_ATTEMPTS 10
