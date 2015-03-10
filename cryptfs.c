@@ -64,7 +64,7 @@
 
 #define DM_CRYPT_BUF_SIZE 4096
 
-#define HASH_COUNT 2000
+#define HASH_COUNT 5000
 #define KEY_LEN_BYTES 32
 #define IV_LEN_BYTES 32
 
